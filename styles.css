@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Caveat:wght@700&family=East+Sea+Dokdo&family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&family=Permanent+Marker&display=swap");
+
+@font-face {
+  font-family: "blaxie";
+  src: url("./fonts/blaxie.otf");
+}
+
+:root {
+  --color-one: #ee2737;
+  --color-two: #2176ae;
+  --color-three: #d5a021;
+  --color-four: #61c9a8;
+  --color-five: #e3dbdb;
+}
+
+.caveat {
+  font-family: "Caveat", cursive;
+}
+
+.caveat-brush {
+  font-family: "Caveat Brush", cursive;
+}
+
+.dokdo {
+  font-family: "East Sea Dokdo", cursive;
+}
+
+.lato {
+  font-family: "Lato", sans-serif;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+.marker {
+  font-family: "Permanent Marker", cursive;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  width: 100%;
+  padding: 10rem 0;
+  color: white;
+}
+
+section {
+  padding: 2rem 1rem;
+}
+
+header.main-header {
+  background-image: linear-gradient(
+      0.25turn,
+      rgba(33, 118, 174, 0.3) 0%,
+      rgba(33, 118, 174, 0.3) 100%
+    ),
+    url("./images/headeroption1.jpg");
+  background-size: cover;
+}
+
+.cta {
+  background-image: linear-gradient(
+      0deg,
+      rgba(33, 118, 174, 0.3) 0%,
+      rgba(33, 118, 174, 0.3) 100%
+    ),
+    url("./images/placeholder.JPG");
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+footer {
+  background-color: #2176ae;
+  padding: 2rem;
+  color: white;
+}
+
+.icon-container i {
+  color: var(--color-three);
+  margin-bottom: 0.5rem;
+}
+
+.info-section {
+  padding: 2rem;
+  border-radius: 1rem;
+  width: 100%;
+}
+
+.info-section p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 4.17rem;
+  padding: 1rem;
+  line-height: 1;
+  margin-bottom: -1rem;
+}
+
+h2 {
+  font-size: 2.59rem;
+}
+
+h3 {
+  font-size: 1.61rem;
+}
+
+.color-1-emphasis em {
+  font-style: normal;
+  color: var(--color-one);
+}
+
+input {
+  margin-bottom: 2rem;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.navbar-brand {
+  padding: 0;
+}
+
+.navbar-brand img {
+  height: 4rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+.round-section {
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.bg-color-1 {
+  background-color: var(--color-one);
+}
+
+.bg-color-2 {
+  background-color: var(--color-two);
+}
+
+.bg-color-3 {
+  background-color: var(--color-three);
+}
+
+.bg-color-4 {
+  background-color: var(--color-four);
+}
+
+.bg-red-paint-1 {
+  background-image: url("./images/redpaint1.png");
+  background-repeat: no-repeat;
+  background-size: 95% 95%;
+}
+
+.bg-red-paint-2 {
+  background-image: url("./images/redpaint2.png");
+  background-repeat: no-repeat;
+  background-size: 95% 95%;
+}
+
+.bg-red-paint-3 {
+  background-image: url("./images/redpaint3.png");
+  background-repeat: no-repeat;
+  background-size: 95% 95%;
+}
+
+.bg-blue-paint-1 {
+  background-image: url("./images/bluepaint1.png");
+  background-repeat: no-repeat;
+  background-size: 95% 95%;
+}
+
+.bg-blue-paint-2 {
+  background-image: url("./images/bluepaint2.png");
+  background-repeat: no-repeat;
+  background-size: 95% 95%;
+}
+
+.bg-gold-paint-1 {
+  background-image: url("./images/goldenpaint1.png");
+  background-repeat: no-repeat;
+  background-size: 95% 95%;
+}
+
+.bg-gold-paint-2 {
+  background-image: url("./images/goldenpaint2.png");
+  background-repeat: no-repeat;
+  background-size: 95% 95%;
+}
+
+.color-1 {
+  color: var(--color-one);
+}
+
+.color-2 {
+  color: var(--color-two);
+}
+
+.color-3 {
+  color: var(--color-three);
+}
+
+.color-4 {
+  color: var(--color-four);
+}
+
+.font-white {
+  color: white;
+}
+
+.rounded-border {
+  border-radius: 1rem;
+}
+
+.bg-blue {
+  color: white;
+  background-color: var(--color-two);
+}
+
+.fact-check {
+  background-color: var(--color-five);
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.w-fit-content {
+  width: fit-content;
+}
+
+.btn-primary {
+  background-color: var(--color-one);
+  font-family: "Permanent Marker", cursive;
+  border-radius: 0;
+  border: none;
+  font-size: 1.25rem;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: var(--color-three);
+}
